@@ -1,8 +1,8 @@
---On -boarding Task - Technical Preparation #1
+-- 
 --Created by Larissa Kilemtieva 
 --Date: Feb 2019
 
---TASK 1-----------------------------------------------------------------------------------------------------:
+----------------------------------------------------------------------------------------------------
 
 --(a) Display a list of all the Property Names and their Property Ids for Owner Id: 1426
 select		Prop.Name as [Property Name], OwnrProp.PropertyId as [Property Id], OwnerId as [Owner ID]
