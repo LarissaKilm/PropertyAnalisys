@@ -1,4 +1,4 @@
---**Task 15 Given suburb and city, display median rental value
+--Given suburb and city, display median rental value
 --  and value changes of the property within 1 km radius
 USE [PropertyAnalysisDW];
 GO
@@ -117,7 +117,7 @@ GO
 EXECUTE [dbo].[stpGetPublicTransport] 'Sydney',  'St Leonards';
 
 --*********************************************************************
---Task 17 Given suburb and city, display local schools within 1km radius
+--Given suburb and city, display local schools within 1km radius
 USE [PropertyAnalysisDW];
 GO
 SET ANSI_NULLS ON;
@@ -179,7 +179,7 @@ GO
 --------
 EXECUTE [dbo].[stpGetPublicSchools] 'Sydney', 'St Leonards';
 --*********************************************************************
---Task 18 Given suburb and city, display crime rate within 1 km radius
+--Given suburb and city, display crime rate within 1 km radius
 USE [PropertyAnalysisDW];
 GO
 SET ANSI_NULLS ON;
@@ -246,7 +246,7 @@ GO
 EXECUTE [dbo].[GetCrimeRate] 'Sydney', 'St Leonards';
 
 --*********************************************************************
---Task 19 Given suburb and city, display property value of the area 
+--Given suburb and city, display property value of the area 
 --in Column chart and line chart of 1 year, 5 years and 10 years value
 
 USE [PropertyAnalysisDW];
